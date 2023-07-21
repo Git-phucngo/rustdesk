@@ -86,7 +86,7 @@ pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.identalcloud.com"];
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
-    _ => "OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=",
+    _ => "90+8k8E6bJwD1lrTVPwEYfRDGywrX5o6gu/BljG1yKJ5JTxZPLGsBNMxcUC4bx00ergZDnP3mrARaWZ6FoXgmA==",
 };
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
